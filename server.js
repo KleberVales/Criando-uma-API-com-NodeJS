@@ -21,6 +21,8 @@ app.post('/usuarios', async (req, res) => {
     res.status(201).json(req.body)
 })
 
+//main
+
 app.get('/usuarios', async (req, res) => {
 
     let users = []
